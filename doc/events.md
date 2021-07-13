@@ -13,7 +13,7 @@ sealed class WeatherEvent : UIEvent() {
 }
 ```
 
-When you don't want to update the current state, you can imply send an event with `sendEvent()` function:
+When you don't want to update the current state, you can simply send an event with `sendEvent()` function:
 
 ```kotlin
 fun getWeather() = action {
